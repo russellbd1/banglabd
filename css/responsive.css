@@ -1,0 +1,605 @@
+/* Mobile devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+
+    /* header_part */
+
+    .header_part .logo_part h1 {
+        font-size: 32px;
+    }
+
+    .header_part .logo_part h6 {
+        font-size: 14px;
+    }
+
+    .header_part .email_part,
+    .header_part .call_part,
+    .header_part .time_part {
+        float: left;
+    }
+
+    /* header_part */
+
+    /* navbar_part */
+
+    .navbar-toggler {
+        background-color: rgb(240, 79, 79);
+        margin: 10px 0px;
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+
+    .navbar-toggler-icon {
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+    .navbar_part .navbar-nav .nav-item .nav-link {
+        padding: 8px 5px;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    .navbar_part .btn-outline-success {
+        margin-bottom: 10px;
+    }
+
+    .navbar_part .btn-outline-success {
+        padding: 2px 10px;
+        font-family: $font1;
+    }
+
+    /* navbar_part */
+
+    /* banner_part */
+
+    .banner_part .banner_slider.owl-carousel .owl-nav .owl-prev {
+        display: none;
+    }
+
+    .banner_part .banner_slider.owl-carousel .owl-nav .owl-next {
+        display: none;
+    }
+
+    .banner_part .banner_slider .banner_item {
+        width: 100%;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay {
+        padding: 150px 0px;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay h6 {
+        margin-top: 100px;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay h1 {
+        margin-top: 20px;
+        font-size: 32px;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    /* consulting_part */
+
+    .antri_part {
+        padding: 40px 0px;
+       
+      }
+      .antri_part .antri_all .antir_content h2 {
+        font-size: 24px;
+      }
+
+    .consulting_part .booking_itme .booking_from {
+        padding: 20px 10px;
+    }
+
+    .consulting_part .booking_itme .booking_from .form_heading h1 {
+        font-size: 24px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 {
+        padding: 50px 10px 30px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_heading h1 {
+        font-size: 24px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant {
+        margin-top: 0px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant .consult_icon {
+        margin-top: 30px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant .consult_text h4 {
+        margin-top: 10px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant .consult_text h6 {
+        margin-top: 10px;
+    }
+
+    /* consulting_part */
+    /* guidance_part */
+    .guidance_part .guidance_item {
+
+        height: 150px;
+    }
+
+    .guidance_part .guidance_item .guidance_overlay h1 {
+        margin-top: 40px;
+        font-size: 20px;
+
+    }
+
+    /* guidance_part */
+    /* nigotite_part */
+    .nigotite_part .nigotite_all .migotite_pic {
+        padding-right: 0px;
+        margin-top: 10px;
+    }
+
+    .nigotite_part .nigotite_all .nigotite_content {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+
+    .nigotite_part .nigotite_all .nigotite_content .nigotite_text h1 {
+        padding: 10px 0px;
+        font-size: 28px;
+    }
+
+    .nigotite_part .nigotite_all .nigotite_content .negotite_counter .nego_count {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .nigotite_part .nigotite_all .nigotite_content .negotite_counter .nego_count h1 {
+        font-size: 24px;
+    }
+
+    .nigotite_part .nigotite_all .nigotite_content .negotite_counter .nego_count h5 {
+        font-size: 14px;
+    }
+
+    /* nigotite_part */
+
+    /* project_part */
+
+    .project_part {
+        padding: 50px 0px 20px;
+    }
+
+    .project_part .project_head h1 {
+        font-size: 28px;
+        margin: 10px 0px;
+    }
+
+    .project_part .project_head p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .project_part .project_all {
+        margin-top: 30px;
+    }
+
+    .project_part .project_all .project_item {
+        margin-bottom: 30px;
+    }
+
+    .project_part .project_all .project_item .project_pic h6 {
+        font-size: 14px;
+    }
+
+    .project_part .project_all .project_item .project_item_content h3 {
+        font-size: 24px;
+        margin: 40px 0px 10px;
+    }
+
+    .project_part .project_all .project_item .project_item_content p {
+
+        font-size: 14px;
+    }
+
+    /* project_part */
+
+    /* service_part */
+
+    .service_part {
+        margin-bottom: 40px;
+    }
+
+    .service_part .service_head h1 {
+        font-size: 28px;
+        margin: 20px 0px;
+    }
+
+    .service_part .tab-content h3 {
+        font-size: 24px;
+    }
+
+    .service_part .tab-content p {
+        margin-top: 15px;
+    }
+
+    /* service_part */
+
+    /* guidance_part2 */
+
+    .guidance_part2 .guidance_item2 {
+        height: 150px;
+    }
+
+    .guidance_part2 .guidance_overlay2 h1 {
+        font-size: 20px;
+    }
+
+    .guidance_part2 .guidance_overlay2 .btn {
+        padding: 5px 30px;
+        float: none;
+        font-size: 16px;
+        display: inline-block;
+
+    }
+
+    /* guidance_part2 */
+
+    /* testimoni_part */
+
+    .testimonial_part {
+        padding: 50px 0px;
+    }
+
+    .testimonial_part .testimonial_heading h1 {
+        font-size: 28px;
+    }
+
+    .testimonial_part .testimonial_heading p {
+        margin-bottom: 30px;
+    }
+
+    /* testimoni_part */
+
+    /* blog_part */
+
+    .blog_part {
+        padding: 40px 0px;
+    }
+
+    .blog_part .blog_heading h1 {
+        font-size: 28px;
+    }
+
+    .blog_part .blog_heading p {
+        margin-bottom: 25px;
+    }
+
+    .blog_part .blog_all {
+        border: 3px solid #3fe3ea;
+        margin-top: 20px;
+    }
+
+    /* blog_part */
+
+    /* footer_part */
+
+    .foot_part {
+        padding: 60px 0px;
+        }   
+
+    .foot_part .part_one .social_icon ul li {
+        margin-top: 10px;
+    }
+
+    .foot_part .part_tow h4,
+    .foot_part .part_three h4,
+    .foot_part .part_four h4 {
+        margin-top: 50px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* header_part */
+    .header_part .email_part,
+    .header_part .call_part,
+    .header_part .time_part {
+        float: left;
+    }
+
+    /* header_part */
+
+    /* navbar_part */
+
+   
+    .navbar-toggler {
+        background-color: rgb(240, 79, 79);
+        margin: 10px 0px;
+        color: rgba(248, 247, 247, 0.966);
+    }
+    .navbar_part .navbar-nav .nav-item .nav-link {
+        padding: 8px 5px;
+    }
+
+    .navbar_part .btn-outline-success {
+        margin-bottom: 10px;
+    }
+
+    .navbar_part .btn-outline-success {
+        padding: 5px 20px;
+    }
+
+    .navbar_part .form-control {
+        display: none;
+    }
+
+    /* navbar_part */
+
+    /* banner_part */
+
+    .banner_part .banner_slider.owl-carousel .owl-nav .owl-prev {
+        display: none;
+    }
+
+    .banner_part .banner_slider.owl-carousel .owl-nav .owl-next {
+        display: none;
+    }
+
+    .banner_part .banner_slider .banner_item {
+        width: 100%;
+    }
+
+  
+    .banner_part .banner_slider .banner_item .banner_overlay {
+        padding: 150px 0px;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay h6 {
+        margin-top: 100px;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay h1 {
+        margin-top: 20px;
+        font-size: 32px;
+    }
+
+    .banner_part .banner_slider .banner_item .banner_overlay .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    /* consulting_part */
+
+    .consulting_part .booking_itme .booking_from {
+        padding: 30px 20px;
+    }
+
+    .consulting_part .booking_itme .booking_from .form_heading h1 {
+        font-size: 32px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 {
+        padding: 50px 10px 30px;
+
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_heading h1 {
+        font-size: 24px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant {
+        margin-top: 0px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant .consult_icon {
+        margin-top: 30px;
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant .consult_text h4 {
+        margin-top: 10px;
+
+    }
+
+    .consulting_part .booking_itme .consult_item1 .consult_contant .consult_text h6 {
+        margin-top: 10px;
+    }
+
+
+    .foot_part {
+        padding: 60px 0px;
+        }   
+
+    .foot_part .part_one .social_icon ul li {
+        margin-top: 10px;
+    }
+
+    .foot_part .part_tow h4,
+    .foot_part .part_three h4,
+    .foot_part .part_four h4 {
+        margin-top: 50px;
+    }
+
+   }
+
+
+    /* consulting_part */
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* header_part start */
+
+.header_part .call_part {
+    float: left;
+}
+.header_part .time_part{
+    float: right;
+}
+
+/* header_part end */
+
+
+.navbar-toggler {
+    background-color: rgb(240, 79, 79);
+    margin: 10px 0px;
+    color: rgba(248, 247, 247, 0.966);
+}
+
+
+
+/* banner start */
+
+.banner_part .banner_slider .banner_item .banner_overlay {
+    padding: 150px 0px;
+}
+
+.banner_part .banner_slider .banner_item .banner_overlay h6 {
+    margin-top: 100px;
+}
+
+.banner_part .banner_slider .banner_item .banner_overlay h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+/* banner end */
+
+/* consulting_part start */
+.antri_part {
+    padding: 80px 0px;
+    background: #f1f1f1;
+  }
+  .antri_part .antri_all .antir_content h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .antri_part .antri_all .antir_content {
+    margin-top: 30px;
+  }
+
+  .antri_part .antri_all .antir_content_item .antri_text .antri_word h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .antri_part .antri_all .antir_content_item .antri_text .antri_word h6 {
+    font-size: 12px;
+  }
+  .antri_part .antri_booking {
+    background: chocolate;
+    border-radius: 5px;
+    padding: 40px;
+  }
+
+/* consulting_part end */
+
+/* service_part start */
+.service_part .tab-content img {       
+    height: 380px;       
+  }
+/* service_part end */
+
+    .foot_part {
+        padding: 60px 0px;
+        }   
+
+    .foot_part .part_one .social_icon ul li {
+        margin-top: 10px;
+    }
+
+    .foot_part .part_one h4,
+    .foot_part .part_tow h4,
+    .foot_part .part_three h4,
+    .foot_part .part_four h4 {
+        margin-top: 50px;
+    }
+
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/* banner start */
+
+.banner_part .banner_slider .banner_item .banner_overlay {
+    padding: 150px 0px;
+}
+
+.banner_part .banner_slider .banner_item .banner_overlay h6 {
+    margin-top: 100px;
+}
+
+.banner_part .banner_slider .banner_item .banner_overlay h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+/* banner end */
+
+/* consulting_part start */
+.antri_part {
+    padding: 80px 0px;
+    background: #f1f1f1;
+  }
+  .antri_part .antri_all .antir_content h2 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .antri_part .antri_all .antir_content {
+    margin-top: 30px;
+  }
+
+  .antri_part .antri_all .antir_content_item .antri_text .antri_word h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .antri_part .antri_all .antir_content_item .antri_text .antri_word h6 {
+    font-size: 14px;
+  }
+  .antri_part .antri_booking {
+    background: chocolate;
+    border-radius: 5px;
+    padding: 40px;
+  }
+
+/* consulting_part end */
+
+
+/* nigotite_part start */
+.nigotite_part .nigotite_all .nigotite_content {
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+
+  .nigotite_part .nigotite_all .nigotite_content .nigotite_text h1 {  
+    font-size: 24px;
+  }
+
+/* nigotite_part end */
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .nigotite_part .nigotite_all .nigotite_content .nigotite_text h1 {  
+        font-size: 28px;
+      }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
